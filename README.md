@@ -2,16 +2,16 @@
 
 ## Instructions
 
-* Fork this Repository
-* Clone YOUR fork
-* Complete the activity below
-* Push your solution to your fork
-* Submit a pull request from your repository to the `turingschool-examples` repository
-* Make sure to put your name in your PR!
+- Fork this Repository
+- Clone YOUR fork
+- Complete the activity below
+- Push your solution to your fork
+- Submit a pull request from your repository to the `turingschool-examples` repository
+- Make sure to put your name in your PR!
 
 ## Iteration 1
 
-For iteration 1, you have been given the tests that you need.  Unskip one test at a time to use TDD to build a Player class that responds to the following interaction pattern.
+For iteration 1, you have been given the tests that you need. Unskip one test at a time to use TDD to build a Player class that responds to the following interaction pattern.
 
 (Where you see something like `#<Playerr:0x00007fccd30375f8...>`, this is
 shorthand for a full player object with that object identifier - we have
@@ -86,11 +86,11 @@ pry(main)> team.player_count
 
 ## Iteration 3
 
-Use TDD to update your `Team` class so that it responds to the following interaction pattern: 
+Use TDD to update your `Team` class so that it responds to the following interaction pattern:
 
-* Player is considered a long term player if their contract length is greater than two years.
-* Player is considered a short term player if their contract length is two years or less.
-* Payroll is the total cost of all of the players.
+- Player is considered a long term player if their contract length is greater than two years.
+- Player is considered a short term player if their contract length is two years or less.
+- Payroll is the total cost of all of the players.
 
 ```ruby
 pry(main)> require './lib/player'
@@ -154,8 +154,7 @@ pry(main)> player.nickname
 
 Use TDD to update your `Team` class so that it responds to the following interaction pattern:
 
-* `players_by_last_name` should be in ascending alphabetical order.
-
+- `players_by_last_name` should be in ascending alphabetical order.
 
 ```ruby
 pry(main)> require './lib/player'
